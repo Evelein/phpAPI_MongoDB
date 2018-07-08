@@ -4,7 +4,7 @@
 	<title>
 		API
 	</title>
-		<link href="style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
 	<div class="layer1">
@@ -18,9 +18,9 @@
 	<div class="layer2">
 		<form method="post" action="input2.php">
 			<button type="submit">
-    			Категории
-    		</button>
-    	</form>
+    				Категории
+    			</button>
+    		</form>
 	</div>
 </body>
 </html>
