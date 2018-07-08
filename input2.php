@@ -15,7 +15,7 @@
         			</tr>
         			<?php 
 					require 'phpmongodb/listCollections.php'
-					?>
+				?>
     			</thead>
 			</table>
 		</div>
