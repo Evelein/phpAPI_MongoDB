@@ -11,11 +11,11 @@ $cursor = $collection->find(); //Вывод инфы с коллекции
 
 echo '<table border="2">
     <thead>
-  		<tr>
+  	<tr>
 	        <th height="25">Название</th>
 	        <th>Страна</th>
 	        <th>Производитель</th>
-		    <th>Категория</th>
+		<th>Категория</th>
       	</tr>';
 
 	foreach($cursor as $document) 
@@ -27,5 +27,5 @@ echo '<table border="2">
 		echo "<td>".$document->Категория."</td>";
 		echo "</tr>"; 
 	}
-	echo '</table>';
+echo '</table>';
 ?>
