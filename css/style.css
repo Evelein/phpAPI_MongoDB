@@ -1,0 +1,21 @@
+table, th, td 
+  { 
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.layer1 
+  {
+    position: absolute; 
+    bottom: 550px; 
+    right: 550px; 
+    line-height: 1.5px;
+  }
+
+.layer2 
+  {
+    position: absolute; 
+    bottom: 500px; 
+    right: 1250px; 
+    line-height: 1.5px;
+  }
