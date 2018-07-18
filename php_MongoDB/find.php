@@ -46,13 +46,13 @@ $find3 = $collection3->find(['Название' => ''. $test .'']);
 
 $find4 = $collection4->find(['Название' => ''. $test .'']);
 	
-	foreach ( $find4 as $data4)
+	foreach ( $find4 as $data3)
 		{
 			echo "<tr>";
-			echo "<td>".$data4->Название."</td>"; 
-			echo "<td>".$data4->Страна."</td>"; 
-			echo "<td>".$data4->Производитель."</td>"; 
-			echo "<td>".$data4->Категория."</td>";
+			echo "<td>".$data3->Название."</td>"; 
+			echo "<td>".$data3->Страна."</td>"; 
+			echo "<td>".$data3->Производитель."</td>"; 
+			echo "<td>".$data3->Категория."</td>";
 			echo "</tr>"; 
 		}
 ?>
